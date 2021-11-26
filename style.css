@@ -1,0 +1,62 @@
+.main{
+    width: 700px;
+    height: 400px;
+    margin: 100px auto;
+    border: 1px solid;
+    text-align: center;
+    padding: 20px;
+}
+.box label {
+    font-size: 1.8rem;
+    color: brown;
+    margin-right: 20px;
+}
+
+#input-link{
+    height: 40px;
+    padding-left: 10px;
+    border: 3px solid rgb(236, 128, 128);
+    border-radius: 10px;
+}
+.button {
+    height: 46px;
+    background-color: indigo;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: violet;
+}
+.option-domain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 330px;
+}
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;;
+}
+.option.active{
+    background-color: royalblue;
+    color: white;
+}
+.output h3 {
+    color: green;
+}
+.output-link{
+    color: rgb(73, 128, 0);
+    font-size: 2rem;
+    width: 300px;
+    background-color: rgba(255, 105, 180, 0.507);
+    height: 50px;
+    margin: 0 auto;
+}
